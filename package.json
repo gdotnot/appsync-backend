@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Backend for the AppSync Demo project",
+  "main": "index.js",
+  "scripts": {
+    "sls": "sls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdotnot/appsync-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gdotnot/appsync-backend/issues"
+  },
+  "homepage": "https://github.com/gdotnot/appsync-backend#readme",
+  "devDependencies": {
+    "serverless": "4.35.0"
+  }
+}

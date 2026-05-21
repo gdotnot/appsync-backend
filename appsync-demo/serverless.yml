@@ -1,0 +1,14 @@
+service: appsync-demo
+frameworkVersion: "4"
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+
+package:
+  exclude:
+    - package-lock.json
+    - package.json
+
+appSync:
+  - ${file(serverless.appsync-api.yml)}
